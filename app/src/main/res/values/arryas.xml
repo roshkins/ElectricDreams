@@ -28,12 +28,12 @@
 <resources>
 
     <string-array name="sensor_interval_entries">
-        <item>1 seconds</item>
-        <item>2 seconds</item>
+        <item>10 ms</item>
+        <item>0.2 seconds</item>
     </string-array>
 
     <string-array name="sensor_interval_values">
-        <item>1000</item>
-        <item>2000</item>
+        <item>10</item>
+        <item>200</item>
     </string-array>
 </resources>
