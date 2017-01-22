@@ -662,7 +662,20 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 line.getValues().add(new PointValue(count, (float) temp));
                 chart.animationDataUpdate(1);
 
-                
+                if (temp > 51) {
+                    View bg = (View) findViewById(R.id.content_view);
+                    View fg = (View) findViewById(R.id.graphBg);
+                    bg.setBackgroundColor(0xFFFF0000);
+                    fg.setBackgroundColor(0xFFFF0000);
+                }
+                if (temp < 51) {
+                    View bg = (View) findViewById(R.id.content_view);
+                    View fg = (View) findViewById(R.id.graphBg);
+                    bg.setBackgroundColor(0xFF00FF00);
+                    fg.setBackgroundColor(0xFF00FF00);
+
+                }
+
 
 
                 if (temp * 1.01f > maxTop) {
