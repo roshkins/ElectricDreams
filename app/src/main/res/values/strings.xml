@@ -27,7 +27,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- description: [App name] -->
-    <string name="app_name">MDK Sensor</string>
+    <string name="app_name">Electric Dreams</string>
     <!-- description: [Settings menu caption] -->
     <string name="action_settings">Settings</string>
     <!-- description: [About menu caption] -->
@@ -123,7 +123,7 @@
     <!-- description: [Sample values showing on UI caption] -->
     <string name="x_axis_name">15 recent sampling</string>
     <!-- description: [Y axis label showing on UI caption] -->
-    <string name="y_axis_name">Temperature (F)</string>
+    <string name="y_axis_name">Activity</string>
     <!-- description: [Clear history button caption] -->
     <string name="clear_history">CLEAR HISTORY</string>
     <!-- description: [Toast prompt when sensor starts to catch sample value] -->
@@ -137,4 +137,7 @@
     <string name="dip_description_title">Dip switch configuration</string>
     <!-- description: [The Dip switch config description prompt] -->
     <string name="dip_description">All Dip configurations are \"Don\'t Care\" for this example.</string>
+    <string name="sleep_data">Electric Slleep Engaged</string>
+    <string name="sleep_data2">Electric Sleep Engaged</string>
+    <string name="electric_desc">Watch movement during the night including slow breaths, seizure activity, restless leg syndrome, and other nighttime movements</string>
 </resources>

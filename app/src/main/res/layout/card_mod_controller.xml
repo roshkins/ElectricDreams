@@ -66,7 +66,7 @@
                 android:enabled="false"
                 android:checked="false"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/sensor_data" />
+                android:text="@string/sleep_data2" />
 
             <View
                 android:layout_width="match_parent"
@@ -81,7 +81,7 @@
                 android:layout_marginTop="@dimen/text_vertical_margin"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textStyle="italic"
-                android:text="@string/attach_pcard" />
+                android:text="@string/electric_desc" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -92,7 +92,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/sensor_interval" />
+                    android:text="@string/sensor_interval"
+                    android:visibility="invisible" />
 
                 <Spinner
                     android:id="@+id/sensor_interval"
@@ -100,7 +101,8 @@
                     android:layout_height="wrap_content"
                     android:entries="@array/sensor_interval_entries"
                     android:enabled="false"
-                    android:spinnerMode="dropdown" />
+                    android:spinnerMode="dropdown"
+                    android:visibility="invisible" />
 
             </LinearLayout>
 

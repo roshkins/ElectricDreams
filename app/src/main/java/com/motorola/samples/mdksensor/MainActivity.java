@@ -84,8 +84,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
      * Line chart to draw temperature values
      */
     private static int count;
-    private static float maxTop = 80f;
-    private static float minTop = 70f;
+    private static float maxTop = 53f;
+    private static float minTop = 53f;
     private LineChartView chart;
     private Viewport viewPort;
 
@@ -661,6 +661,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 line.getValues().add(new PointValue(count, (float) temp));
                 chart.animationDataUpdate(1);
+
+                
+
 
                 if (temp * 1.01f > maxTop) {
                     maxTop = (float) temp * 1.01f;
